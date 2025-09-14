@@ -1,5 +1,5 @@
 // criando variaveis
-let proprietario = prompt("ola qual e o seu nome?")
+const proprietario = prompt("ola qual e o seu nome?")
 let empresa = prompt("qual sera o nome da sua empresa?")
 let construcao = prompt("em que cidade voce quer construir sua empresa?")
 let gastos = prompt("quanto voce deseja gastar na construcao da sua empresa? dica: tente acima de 15000")
@@ -83,6 +83,7 @@ fazer possiveis parcerias: ${parserias}
 }else{
     alert("voce nao pode dar esse salario ou os gastos sao insuficientes! valor minimo para salario: 1000, gasto minimo para construcao: 15000.")
 }
+
 
 
 
