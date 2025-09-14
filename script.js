@@ -14,7 +14,7 @@ gastosdosfuncionarios = gastosdosfuncionarios * 1
 // confirmar o valor do salario dos funcionarios
 if(gastosdosfuncionarios >= 1000){
     alert("salario e gastos permitidos. prossiga com a criacao da empresa")
-
+//ultima variavel
     let nicho = prompt("qual o nicho da sua empresa?")
 
     // valor total para pagar funcionarios
@@ -30,7 +30,6 @@ nicho da empresa: ${nicho}
 cidade escolhida para construcao: ${construcao}
 gastos para construcao: ${gastos}
 quantidade de funcionarios: ${funcionarios}
-
 salario dos funcionarios: ${gastosdosfuncionarios}
 
 total a pagar aos funcionarios: ${valorfinal}
@@ -81,8 +80,9 @@ fazer possiveis parcerias: ${parserias}
 `)
 
 }else{
-    alert("voce nao pode dar esse salario ou os gastos sao insuficientes! valor minimo para salario: 1000, gasto minimo para construcao: 15000.")
+    alert("voce nao pode dar esse salario ou os gastos sao insuficientes! valor minimo para salario: 1000.")
 }
+
 
 
 
